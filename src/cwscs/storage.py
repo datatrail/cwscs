@@ -38,6 +38,8 @@ class Storage(object):
             if not lot.closed:
                 lot.update(self.lots_path, replace=replace)
 
+
+
     def info(self) -> None:
         print(f"Properties of {self.__class__.__name__}:")
         for key, value in self.__dict__.items():
