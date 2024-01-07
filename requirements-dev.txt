@@ -3,7 +3,10 @@ build
 flake8
 flake8-bugbear
 mypy
+pip
 pre-commit
 pytest
 pytest-cov
 tox
+twine
+wheel
