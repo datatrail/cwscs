@@ -1,0 +1,9 @@
+black
+build
+flake8
+flake8-bugbear
+mypy
+pre-commit
+pytest
+pytest-cov
+tox
